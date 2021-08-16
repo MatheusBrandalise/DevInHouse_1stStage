@@ -23,6 +23,28 @@ p{
     font-size: 1.5rem;
 }
 
+div{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    margin-top: 2rem;
+    width: 20rem;
+    height: 20rem;
+}
+
+.images{
+    width: 30rem;
+    height: 30rem;
+    border-style: dashed;
+    border-color: blueviolet;
+}
+
 @media (max-width: 1200px){
     h1{
         color: brown;
