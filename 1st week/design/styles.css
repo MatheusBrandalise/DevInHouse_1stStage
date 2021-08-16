@@ -1,0 +1,70 @@
+html
+{
+    font-family: "Montserrat";
+    background-color: 235, 235, 235;
+}
+
+hr{
+    width: 50%;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 2rem;
+    margin-top: 4rem;
+}
+
+p{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1200px){
+    h1{
+        color: brown;
+    }
+}
+
+@media (max-width: 1024px){
+    h1{
+        font-weight: 700;
+        color: blue;
+    }
+}
+
+@media (max-width: 768px){
+    h1{
+        font-weight: 400;
+        font-size: 1.5rem;
+        color:chartreuse;
+    }
+    p{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:480px){
+    h1{
+        font-size: 400;
+        font-size: 1rem;
+        color:darkgoldenrod;
+    }
+    p{
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 320px){
+    h1{
+        font-weight: 400;
+        font-size: 0.87rem;
+        color: aquamarine;
+    }
+    p{
+        font-size: 0.5rem;
+    }
+}
