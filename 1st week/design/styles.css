@@ -1,7 +1,7 @@
 html
 {
     font-family: "Montserrat";
-    background-color: 235, 235, 235;
+    background-color: rgb(255, 255, 255);
 }
 
 hr{
@@ -42,7 +42,26 @@ img{
     width: 30rem;
     height: 30rem;
     border-style: dashed;
-    border-color: blueviolet;
+    border-color: rgb(46, 196, 182);
+}
+
+button{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 191, 105);
+    width: 6rem;
+    height: 2rem;
+    border-radius: 0.3rem;
+    border: 0.15rem solid;
+    margin-top: 4rem;
+}
+
+a{
+    color: black;
+    text-decoration: unset;
 }
 
 @media (max-width: 1200px){
