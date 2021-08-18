@@ -1,0 +1,134 @@
+html
+{
+    font-family: "Montserrat";
+    background-color: rgb(255, 255, 255);
+}
+
+hr{
+    width: 50%;
+}
+
+h1{
+    position: relative;
+    font-weight: 800;
+    font-size: 4rem;
+    text-align: center;
+    color: brown;
+}
+
+
+p{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+div{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    margin-top: 2rem;
+    width: 20rem;
+    height: 20rem;
+}
+
+button{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 191, 105);
+    width: 6rem;
+    height: 2rem;
+    border-radius: 0.3rem;
+    border: 0.15rem solid;
+    margin-top: 4rem;
+}
+
+a{
+    color: black;
+    text-decoration: unset;
+}
+
+.images{
+    width: 30rem;
+    height: 30rem;
+    border-style: dashed;
+    border-color: rgb(46, 196, 182);
+}
+
+.cabecalho{
+    position: relative;
+    border-style: solid;
+    border-color:brown;
+    border-width: 0.15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho::before{
+    content: "";
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    right: 0rem;
+    bottom: 0rem;
+    background-image: url("pattern_h1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+
+@media (max-width: 1200px){
+    h1{
+        color: brown;
+    }
+}
+
+@media (max-width: 1024px){
+    h1{
+        font-weight: 700;
+        color: blue;
+    }
+}
+
+@media (max-width: 768px){
+    h1{
+        font-weight: 400;
+        font-size: 1.5rem;
+        color:chartreuse;
+    }
+    p{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:480px){
+    h1{
+        font-size: 400;
+        font-size: 1rem;
+        color:darkgoldenrod;
+    }
+    p{
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 320px){
+    h1{
+        font-weight: 400;
+        font-size: 0.87rem;
+        color: aquamarine;
+    }
+    p{
+        font-size: 0.5rem;
+    }
+}
