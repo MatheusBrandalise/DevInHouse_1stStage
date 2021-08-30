@@ -4,10 +4,128 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut" href="../src/conta-zap.png">
+    <link rel="shortcut icon" href="../meta/conta-zap.png">
+    <link rel="stylesheet" href="./design/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+    <script src="./scripts/script.js" defer></script>
     <title>Week 2 -  Home</title>
 </head>
 <body>
-    
+    <header>
+        <img class="logo" src="../meta/conta-zap.png" alt="logo">
+        <nav>
+            <ul class="nav_links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="https://contazap.com.br/">Conta Zap</a></li>
+            </ul>
+        </nav>
+    </header>
+    <table class="flex-table">
+        <thead>
+            <tr>
+                <th>Nº</th>
+                <th>Questão</th>
+                <th>Resolução</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td data-label="Número" class="questionNumber">1</td>
+                <td data-label="Questão"><b>Alerte o Usuário.</b> Utilizando JavaScript, emita um alerta para o
+                    usuário com alguma informação importante.</td>
+                <td data-label="Resolução"><button id="answer01" onclick=answer01()>Resposta 1</button> </td>
+            </tr>
+            <tr>
+                <td data-label="Número" class="questionNumber">2</td>
+                <td data-label="Questão"><b>Faça com que o usuário confirme antes de seguir.</b> Utilizando
+                    JavaScript, peça a confirmação do usuário ao clicar em algum
+                    botão, perguntando se ele deseja realmente realizar aquela ação
+                    (você pode utilizar a página criada nos exercícios da semana 1, ou
+                    criar uma nova).</td>
+                <td data-label="Resolução"><button id="answer02" onclick=answer02()>Resposta 2</button></td>
+            </tr>
+            <tr>
+                <td data-label="Número" class="questionNumber">3</td>
+                <td data-label="Questão"><b>Peça o nome do usuário e exiba na tela.</b> Faça com que o
+                    navegador do usuário pergunte o nome dele(a). Utilizando o
+                    método alert, exiba o nome inserido pelo usuário.</td>
+                <td data-label="Resolução"><button id="answer03" onclick=answer03()>Resposta 3</button></td>
+            </tr>
+            <tr>
+                <td data-label="Número" class="questionNumber">4</td>
+                <td data-label="Questão"><b>Pergunte ao usuário e exiba no console.</b> Pergunte ao usuário:
+                    nome (prompt), idade (prompt) e se gosta de praticar algum
+                    esporte (confirm). Crie 3 variáveis para guardar as respostas do
+                    usuário: uma deve receber um valor textual (string), outra deve
+                    receber um valor numérico (number), e outra um valor de
+                    verdadeiro ou falso (boolean). Faça com que esses 3 valores
+                    sejam exibidos no console do navegador.</td>
+                <td data-label="Resolução"><button id="answer04"onclick=answer04()>Resposta 4</td>
+            </tr>
+            <tr>
+                <td data-label="Número" class="questionNumber">5</td>
+                <td data-label="Questão"><b>Pergunte nome e sobrenome e exiba na tela.</b>Faça 2 prompts
+                    ao usuário: no primeiro, pergunte o seu sobrenome. No segundo,
+                    pergunte o seu nome. Em seguida, exiba na tela um alert
+                    contendo o nome completo do usuário, na ordem correta (ou seja:
+                    Nome Sobrenome).</td>
+                <td data-label="Resolução"><button id="answer05" onclick=answer05()>Resposta 5</button></td>
+            </tr>
+            <tr>
+                <td data-label="Número" class="questionNumber">6</td>
+                <td data-label="Questão"><b>Pergunte o último sobrenome e exiba em letras maiúsculas,
+                    junto do tamanho.</b> Pergunte ao usuário seu último sobrenome e
+                    em seguida exiba na tela um alert contendo o texto “Olá, X. Seu
+                    sobrenome contém y letras”, onde X é o sobrenome em letras
+                    maiúsculas, e y é a quantidade de letras desse sobrenome.</td>
+                <td data-label="Resolução"><button id="answer06" onclick=answer06()>Resposta 6</button></td>
+            </tr>
+            <tr>
+                <td data-label="Nḿuero" class="questionNumber">7</td>
+                <td data-label="Questão"><b>Pergunte o ano atual e o ano de nascimento, exiba na tela a
+                    idade.</b> Faça 2 prompts ao usuário: no primeiro, pergunte o ano de
+                    nascimento. No segundo, pergunte o ano atual. Em seguida, exiba
+                    na tela um alert contendo o texto “Sua idade é x ou y”, onde x é a
+                    idade do usuário caso ele já tenha feito aniversário neste ano, e y
+                    é a idade caso ele ainda não tenha aniversariado no ano corrente.</td>
+                <td data-label="Resolução"><button id="answer07" onclick=answer07()>Resposta 7</button></td>
+            </tr>
+            <tr>
+                <td data-label="Número" class="questionNumber">8</td>
+                <td data-label="Questão"><b>Construa uma calculadora.</b> Faça 3 prompts ao usuário: no
+                    primeiro, pergunte qual o tipo de cálculo ele deseja fazer (“+”, “-”,
+                    “*” ou “/”). No segundo, pergunte o primeiro valor que deseja
+                    calcular. No terceiro, o segundo valor que deseja calcular. Em
+                    seguida, realize o cálculo e exiba na tela um alert contendo o texto
+                    “O resultado do seu cálculo é: X”, onde X é o resultado final do
+                    cálculo solicitado pelo usuário.</td>
+                <td data-label="Resolução"><button id="answer08" onclick=answer08()>Resposta 8</button></td>
+            </tr>
+            <tr>
+                <td data-label="Número" class="questionNumber">9</td>
+                <td data-label="Questão"><b>Alerte as horas para o usuário. </b>Construa um script que alerta o
+                    horário no momento de acesso, no formato “23:59” (HH:mm).</td>
+                <td data-label="Resolução"><button id="answer09" onclick=answer09()>Resposta 9</button></td>
+            </tr>
+            <tr>
+                <td data-label="Número" class="questionNumber">10</td>
+                <td data-label="Questão"><b>Construa uma “calculadora” de P.A. </b>Ao entrar na página, seu
+                    script deve realizar 2 prompts ao usuário: um solicitando um “valor
+                    inicial”, e outro um valor para a “raíz”. Após o usuário inserir esses
+                    valores, o seu script deve calcular os 10 primeiros valores da
+                    sequência e exibir na tela. Relembrando: P.A. (Progressão
+                    Aritmética) é uma sequência numérica em que cada termo, a partir
+                    do segundo, é igual à soma do termo anterior com a raiz.
+                    Exemplo: Valor inicial = 1; raiz = 3; P.A. = 1, 4, 7, 10, 13, 16, 19,
+                    22, 25, 28.</td>
+                <td data-label="Resolução"><button id="answer10" onclick=answer10()>Resposta 10</td>
+            </tr>
+        </tbody>
+    </table>
+<footer>
+    &copy; 2021 Matheus José Brandalise - DEVinHouse 2ª edição Conta ZAP
+</footer>
 </body>
 </html>
