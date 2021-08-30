@@ -9,7 +9,7 @@ html {
     display: flex;
     justify-content: center;
     justify-items: center;
-    background-color: #eef7fa;
+    background-color: #C6D8FF;
     font-size: 16px;
 }
 
@@ -19,7 +19,6 @@ body {
     padding-top: 0.5rem;
 }
 
-
 header{
     display: flex;
     justify-content: space-between;
@@ -27,7 +26,7 @@ header{
     margin-top: 0.5rem;
     margin-bottom: 2rem;
     border-radius: 0.3rem;
-    background-color: #eef7fa;
+    background-color: #C6D8FF;
 }
 
 .logo{
@@ -42,7 +41,7 @@ header{
 .nav_links li{
     display: inline-block;
     align-items: flex-end;
-    padding: 0rem 0rem 0rem 3rem;
+    padding: 0rem 1rem 0rem 3rem;
 }
 
 .nav_links li a {
@@ -52,7 +51,7 @@ header{
 }
 
 .nav_links li a:hover{
-    color: #a52a2a;
+    color: #4C1036;
 }
 .logo{
     width: 3rem;
@@ -77,11 +76,10 @@ button{
     justify-content: center;
     align-items: center;
     color: #ffffff;
-    background-color: #181f77;
+    background-color: #72195A;
     width: 10rem;
     height: 2.5rem;
     border-radius: 0.3rem;
-    border: 0.15rem solid;
     font-size: 1rem;
     font-weight: 400;
     cursor: pointer;
@@ -96,10 +94,12 @@ footer{
     display: flex;
     padding: 1rem;
     border-radius: 0.3rem;
-    background-color: #E63946;
+    background-color: #4C1036;
     color: #ffffff;
     text-align: center;
     justify-content: center;
     margin-top: 1rem;
     margin-bottom: 0.5rem;
 }
+
+/*https://coolors.co/c6d8ff-71a9f7-6b5ca5-72195a-4c1036*/
