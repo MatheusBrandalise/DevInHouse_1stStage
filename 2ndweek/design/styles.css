@@ -13,6 +13,13 @@ html {
     font-size: 16px;
 }
 
+body {
+    width: 65%;
+    min-height: 100%;
+    padding-top: 0.5rem;
+}
+
+
 header{
     display: flex;
     justify-content: space-between;
@@ -53,10 +60,14 @@ header{
     padding-left: 0.5rem;
 }
 
-body {
-    width: 65%;
-    min-height: 100%;
-    padding-top: 0.5rem;
+th{
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+td{
+    padding-top: 1rem;
+    text-align: justify;
 }
 
 button{
@@ -76,6 +87,11 @@ button{
     cursor: pointer;
 }
 
+.questionNumber{
+    text-align: center;
+    padding-right: 1rem;
+}
+
 footer{
     display: flex;
     padding: 1rem;
@@ -85,19 +101,4 @@ footer{
     text-align: center;
     justify-content: center;
     margin-top: 1rem;
-}
-
-th{
-    justify-content: center;
-    font-size: 1.2rem;
-}
-
-td{
-    padding-top: 1rem;
-    text-align: justify;
-}
-
-.questionNumber{
-    text-align: center;
-    padding-right: 1rem;
 }
