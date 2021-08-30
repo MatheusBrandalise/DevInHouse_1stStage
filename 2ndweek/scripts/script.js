@@ -40,7 +40,7 @@ function answer07(){
     const year = parseInt(prompt("Qual o ano atual?"))
     const ageWithBirthday = (year - bornYear)
     const ageWithoutBirthday = (year - bornYear) - 1
-    const message =  `Sua idade é ${ageWithBirthday} ou ${ageWithoutBirthday}`
+    const message =  `Sua idade é ${ageWithBirthday} ou ${ageWithoutBirthday} anos`
     alert(message)
 }
 
@@ -72,8 +72,21 @@ function answer08(){
 
 function answer09(){
     dayName = new Array ("domingo", "segunda", "terça", "quarta", "quinta", "sexta", "sábado")
-    monName = new Array ("janeiro", "fevereiro", "março", "abril", "maio", "junho", "agosto", "outubro", "novembro", "dezembro")
+    monthName = new Array ("janeiro", "fevereiro", "março", "abril", "maio", "junho", "agosto", "outubro", "novembro", "dezembro")
     now = new Date
 
-    console.log(`Hoje é ${dayName[now.getDay()]} ${now.getHours()} `)
+    alert(`Hoje é ${dayName[now.getDay()]}, ${now.getDate()} de ${monthName[now.getMonth()]} de ${now.getFullYear()} ${now.getHours()} : ${now.getMinutes()} `)
+}
+
+function answer10(){
+    var value = parseFloat(prompt("Digite um Valor: "))
+    var root = parseFloat(prompt("Digite a raiz: "))
+    let arithmeticProgression = []
+
+    for(var count=0; count<=9; count++){
+        arithmeticProgression[count] = value
+        value += root
+        
+    }
+    alert(`A progressão aritmética é: ${arithmeticProgression}`)
 }
