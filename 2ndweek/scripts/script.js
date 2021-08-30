@@ -71,5 +71,9 @@ function answer08(){
 }
 
 function answer09(){
+    dayName = new Array ("domingo", "segunda", "terça", "quarta", "quinta", "sexta", "sábado")
+    monName = new Array ("janeiro", "fevereiro", "março", "abril", "maio", "junho", "agosto", "outubro", "novembro", "dezembro")
     now = new Date
+
+    console.log(`Hoje é ${dayName[now.getDay()]} ${now.getHours()} `)
 }
