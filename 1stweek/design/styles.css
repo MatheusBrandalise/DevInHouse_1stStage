@@ -4,17 +4,17 @@
     padding: 0;
 }
 
-body{
-    width:65%;
-    min-height: 100%;
-}
-
 html{
     font-family: "Montserrat";
     background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+body{
+    width:65%;
+    min-height: 100%;
 }
 
 header{
